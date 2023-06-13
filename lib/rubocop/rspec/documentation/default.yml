@@ -1,0 +1,35 @@
+---
+AllCops:
+  inherit_mode:
+    merge:
+    - Include
+  Include:
+  - 'rspec-documentation/pages/**/*.md'
+
+RSpec:
+  inherit_mode:
+    merge:
+    - Include
+  Include:
+  - 'rspec-documentation/pages/**/*.md'
+
+Naming/FileName:
+  inherit_mode:
+    merge:
+    - Exclude
+  Exclude:
+  - 'rspec-documentation/pages/**/*.md'
+
+Gemspec/RequiredRubyVersion:
+  inherit_mode:
+    merge:
+    - Exclude
+  Exclude:
+  - 'rspec-documentation/pages/**/*.md'
+
+Style/FrozenStringLiteralComment:
+  inherit_mode:
+    merge:
+    - Exclude
+  Exclude:
+  - 'rspec-documentation/pages/**/*.md'
