@@ -33,3 +33,10 @@ Style/FrozenStringLiteralComment:
     - Exclude
   Exclude:
   - 'rspec-documentation/pages/**/*.md'
+
+Lint/RedundantCopEnableDirective:
+  inherit_mode:
+    merge:
+    - Exclude
+  Exclude:
+  - 'rspec-documentation/pages/**/*.md'
